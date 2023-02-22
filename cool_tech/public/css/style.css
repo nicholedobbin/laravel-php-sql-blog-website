@@ -1,0 +1,58 @@
+
+.myNav {
+    font-family: "PT Sans", sans-serif !important;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.myNavBackground {
+    background-color: #eceaeb !important;
+}
+
+.pageHeadingSection {
+    font-family: "PT Sans", sans-serif !important;
+    background-color: #919192 !important;
+    color: #ffff;
+}
+
+.headerTitle {
+font-size: 48px !important;
+font-weight: 600 !important;
+}
+
+.headerSubtitle {
+    font-size: 20px !important;
+    font-weight: 400 !important;
+}
+
+.articleTitle .categoryName .tagName {
+    font-size: 30px;
+}
+
+.articleFirstParagraph {
+    font-size: 18px;
+}
+  
+a:link { 
+    text-decoration: none;
+    color: black !important;
+}
+
+a:visited { 
+    text-decoration: none; 
+    /*color: #1793B5;*/
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: #1793B5 !important;
+}
+
+a:active { 
+    text-decoration: none; 
+}
+
+
+

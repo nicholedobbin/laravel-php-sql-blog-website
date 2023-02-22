@@ -1,0 +1,65 @@
+============================================= L4T10 - References =========================================================
+
+AngelJay Academy. (2021). Class "App\Models\AnyClass" not found | How to fix Laravel Errors.
+Retrieved from: https://www.youtube.com/watch?v=p_BEF2CroeY
+
+B. Haidar. (2022). Building MVC Applications in PHP Laravel: Part 1.
+Retrieved from: https://www.codemag.com/Article/2205071/Building-MVC-Applications-in-PHP-Laravel-Part-1
+
+Brafton. (n.d.). Simple Database Structure [Tutorial].
+Retrieved from: https://www.brafton.com/support/simple-database-tutorial/
+
+DevMarketer. (2016). How to Build a Blog with Laravel.
+Retrieved from: https://www.youtube.com/playlist?list=PLwAKR305CRO-Q90J---jXVzbOd4CDRbVx
+
+ericsdevblog.com. (n.d.). Laravel for Beginners #4.
+Retrieved from: https://www.ericsdevblog.com/posts/laravel-for-beginners-4/
+
+HyperionDev. (2021). IFS L4T09 - Laravel.
+Retrieved from: HyperionDev IFS L4T09 documents (pdf).
+
+I. Ali. (2022). Understanding Models and Views in Laravel.
+Retrieved from: https://www.cloudways.com/blog/models-views-laravel/
+
+Laravel. (n.d.). Blade Templates.
+Retrieved from: https://laravel.com/docs/5.3/blade
+
+Laravel. (n.d.). Controllers.
+Retrieved from: https://laravel.com/docs/9.x/controllers
+
+Laravel. (n.d.). Database: HTTP Controllers.
+Retrieved from: https://laravel.com/docs/5.0/controllers
+
+Laravel. (n.d.). Eloquent ORM.
+Retrieved from: https://laravel.com/docs/5.0/eloquent
+
+Laravel. (n.d.). Eloquent: Getting Started.
+Retrieved from: https://laravel.com/docs/7.x/eloquent
+
+Laravel. (n.d.). Helpers.
+Retrieved from: https://laravel.com/docs/9.x/helpers
+
+learninglaravel.net. (2021). Laravel 8 Cheat Sheet.
+Retrieved from: https://learninglaravel.net/cheatsheet/
+
+MySQL. (n.d.). 12.7 Date and Time Functions.
+Retrieved from: https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_date
+
+smartdraw. (n.d.). Entity Relationship Diagram (ERD).
+Retrieved from: https://www.smartdraw.com/entity-relationship-diagram/#:~:text=An%20ERD%20visualizes%20the%20relationships,the%20logical%20structure%20of%20databases.
+
+stackoverflow. (2011). mysql automatically store record creation timestamp.
+Retrieved from: https://stackoverflow.com/questions/4870536/mysql-automatically-store-record-creation-timestamp
+
+termsfeed.com/. (n.d.). Compliance solutions for everyone..
+Retrieved from: https://www.termsfeed.com/
+
+tutorials24x7. (2019). Guide To Design Database For Blog Management In MySQL.
+Retrieved from: https://mysql.tutorials24x7.com/blog/guide-to-design-a-database-for-blog-management-in-mysql
+
+WebStack. (2020). Adding Images & CSS in Laravel | Using CSS and Images in Laravel | Laravel Basics | Blade Template.
+Retrieved from: https://www.youtube.com/watch?v=htAEHjSWGI4&t=241s
+
+
+
+

@@ -1,0 +1,72 @@
+---- MySQL Database Setup Example ----
+This is meant as a guideline only for creating the database for this project.
+
+(1) Create and navigate to 'cool_tech' DB: 
+	CREATE DATABASE cool_tech;
+	use cool_tech;
+
+(2) Create user and grant all access to the user: 
+	CREATE USER '[username you want for the user]'@'localhost' identified by '[password you want for the user]';
+	GRANT ALL ON cool_tech.* TO '[username you want for the user]'@'localhost';
+
+(3) Create articles table in 'cool_tech' DB with the following structure: 
+	Articles table:
+	+-----------------+--------------+------+-----+-------------------+-------------------+
+	| Field           | Type         | Null | Key | Default           | Extra             |
+	+-----------------+--------------+------+-----+-------------------+-------------------+
+	| article_id      | int          | NO   | PRI | NULL              | auto_increment    |
+	| creation_date   | datetime     | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
+	| article_title   | varchar(80)  | NO   |     | NULL              |                   |
+	| article_content | text         | NO   |     | NULL              |                   |
+	| category_name   | varchar(30)  | YES  |     | NULL              |                   |
+	| tag_name        | varchar(100) | YES  |     | NULL              |                   |
+	+-----------------+--------------+------+-----+-------------------+-------------------+
+
+	create table articles (
+	    -> article_id int not null auto_increment, 
+	    -> creation_date datetime default current_timestamp,
+	    -> article_title varchar(80) not null,
+	    -> article_content text not null, 
+	    -> category_name varchar(30), 
+	    -> tag_name varchar(100),
+	    -> primary key (article_id)
+	    -> );
+
+(4) Populate articles table with data so it has the following structure: 
+	+------------+-----------------------------------------------------------+---------------------+------------------+------------------------------------+
+	| article_id | article_title                                             | creation_date       | category_name    | tag_name                           |
+	+------------+-----------------------------------------------------------+---------------------+------------------+------------------------------------+
+	|          1 | The future of Artificial Intelligence                     | 2022-10-11 10:27:30 | Opinion pieces   | AI                                 |
+	|          2 | Google launches new app                                   | 2022-10-11 10:27:30 | Tech news        | Google                             |
+	|          3 | Review of software X’s computing performance              | 2022-10-11 10:27:30 | Software reviews | High-Performance Computing         |
+	|          4 | New Android OS review                                     | 2022-10-11 10:27:30 | Hardware reviews | Android                            |
+	|          5 | 5 reasons why you shouldn’t worry about the singularity   | 2022-10-11 10:27:30 | Opinion pieces   | Singularity                        |
+	|          6 | Review of Meta Quest Pro                                  | 2022-10-12 10:28:05 | Hardware reviews | High-Performance Computing, AI     |
+	|          7 | Why Laravel is great                                      | 2022-10-12 10:30:53 | Opinion pieces   | High-Performance Computing, Google |
+	+------------+-----------------------------------------------------------+---------------------+-------------+------------------+----------------------+
+	
+	Example code: 
+	insert into articles (article_title, article_content, category_name, tag_name) 
+	    -> values
+	    -> ('The future of Artificial Intelligence', 
+	    -> 'Paragraph 1: Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut error illo perferendis doloremque quis omnis, excepturi quos cumque a enim praesentium placeat facere quaerat facilis. Veniam pariatur ad optio.\n
+	    '> Paragraph 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut error illo perferendis doloremque quis omnis, excepturi quos cumque a enim praesentium placeat facere quaerat facilis. Veniam pariatur ad optio.\n', 
+	    -> 'Opinion pieces', 'AI');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
