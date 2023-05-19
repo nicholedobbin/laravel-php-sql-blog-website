@@ -112,6 +112,9 @@ The following files/pages were created for this project:
 1. Once in the browser, navigate to articles by clicking on the article preview names.
 2. Click on the navbar options to view the legal page, home page or to search for an article by id, category or tag.
 
+## **Here's what it looks like**
+![Screenshot of home page](markdown/Laravel%20PHP%20MySQL%20Tech%20Blog%20Website.png)
+
 <hr>
 
 ## **Credits and References**
